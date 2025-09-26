@@ -173,13 +173,10 @@ func convertToTemplateFolder(waylines *Waylines) (*TemplateFolder, error) {
 }
 
 func convertToWaylineFolder(waylines *Waylines) (*WaylineFolder, error) {
-
 	executeHeightMode := ExecuteHeightModeRelativeToStartPoint
-
 	if waylines.HeightType == HeightModeRealTimeFollowSurface {
 		executeHeightMode = ExecuteHeightModeRealTimeFollowSurface
 	}
-
 	placemarks := make([]Placemark, 0, len(waylines.Waypoints))
 	for i, wp := range waylines.Waypoints {
 		placemark, err := convertToWaylinePlacemark(wp, i, waylines)

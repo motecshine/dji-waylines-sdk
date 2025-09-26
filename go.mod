@@ -5,7 +5,7 @@ go 1.25.1
 require (
 	github.com/go-playground/validator/v10 v10.27.0
 	github.com/nbio/xml v0.0.0-20250908152200-27e14820def6
-	github.com/stretchr/testify v1.8.4
+	github.com/stretchr/testify v1.11.1
 )
 
 require (

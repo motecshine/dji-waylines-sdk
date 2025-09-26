@@ -16,7 +16,6 @@ const (
 type DroneSubModel int
 
 const (
-
 	DroneSubModel0 DroneSubModel = 0
 	DroneSubModel1 DroneSubModel = 1
 	DroneSubModel2 DroneSubModel = 2
@@ -42,7 +41,6 @@ const (
 type PayloadModel int
 
 const (
-
 	PayloadZ30  PayloadModel = 20
 	PayloadXT2  PayloadModel = 26
 	PayloadXTS  PayloadModel = 41
@@ -150,4 +148,27 @@ const (
 	TemplateTypeMapping2D    TemplateType = "mapping2d"
 	TemplateTypeMapping3D    TemplateType = "mapping3d"
 	TemplateTypeMappingStrip TemplateType = "mappingStrip"
+)
+
+// String representations for JSON/testing
+const (
+	DroneModelMatrice3TD string = "M3TD"
+	DroneModelMatrice3E  string = "M3E"
+	DroneModelMatrice3T  string = "M3T"
+	DroneModelMavic3     string = "Mavic3"
+	DroneModelMini3      string = "Mini3"
+	DroneModelAir2S      string = "Air2S"
+	DroneModelM30        string = "M30"
+	DroneModelM300RTK    string = "M300RTK"
+	DroneModelM350RTK    string = "M350RTK"
+)
+
+const (
+	PayloadModelM3TD   string = "M3TD"
+	PayloadModelM3E    string = "M3E"
+	PayloadModelM3T    string = "M3T"
+	PayloadModelMavic3 string = "Mavic3"
+	PayloadModelMini3  string = "Mini3"
+	PayloadModelAir2S  string = "Air2S"
+	PayloadModelM30    string = "M30"
 )
