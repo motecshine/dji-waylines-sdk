@@ -2,16 +2,6 @@
 
 A Go library for creating and managing DJI drone waypoint missions using the WPML (Waypoint Markup Language) format. This SDK allows you to programmatically create flight plans and generate KMZ files compatible with DJI drone systems.
 
-## Features
-
-- ✅ Create waypoint missions from simple JSON structures
-- ✅ Generate KMZ files for DJI drones
-- ✅ Support multiple drone and payload models
-- ✅ Comprehensive validation with detailed error messages
-- ✅ XML serialization with proper formatting
-- ✅ Action system for photos, gimbal control, and custom actions
-- ✅ Type-safe API with extensive validation
-
 ## Installation
 
 ```bash
